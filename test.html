@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Make your vote now</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="voter">A name</label>
+            <input id="voter" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="age">Another name</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="mascot">An animal</label>
+            <input id="mascot" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="thankYou">
+        <h1>Thanks for voting!</h1>
+        <p>Dear <span class="voter"></span>,</p>
+        <p>Thank you for your submission.
+        </p>
+        <p>We have submitted the name <span class="mascotNM"></span>, as your submission. One of the best yet. Keep a look out for the final votes.
+        </p>
+        <p>Sincerely,</p>
+        <p>Pandington Pandasley</p>
+      </div>
+
+      <div id="over-age">
+        <h1>Sorry these votes are being cast for and by children only.</h1>
+        <p><span class="voter"></span>,why dont you vote in the election.
+          Here are a few links to help you make good choices that your kids would be proud of.</p>
+
+      </div>
+    </div>
+  </body>
+</html>
