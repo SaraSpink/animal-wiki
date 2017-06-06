@@ -5,47 +5,43 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Voting for your animal</title>
+    <title>Animal wiki</title>
   </head>
   <body>
     <div class="container">
-      <h1>Voting</h1>
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-             <label for="voter">Enter your name:</label>
-             <input id="voter" class="form-control" type="text">
-          </div>
-
-          <div class="form-group">
-              <label for="mascot">Enter what you think we should call our new mascot:</label>
-              <input id="mascot" class="form-control" type="text">
-          </div>
-
-          <button type="submit" class="btn">VOTE</button>
-
-        </form>
+      <div class="row">
+      <h1>Name this Pangolin:</h1>
+      <img src="img/pangolin.jpg">
+    </div>
+    <div class="row">
+      <div id="buttons">
+      <button class="btn btn-success" id="name1">Horvath</button>
+      <button class="btn btn-success" id="name2">Lisa</button>
+      <button class="btn btn-success" id="name3">Pandington</button>
       </div>
-    <div id="over-age">
-        <h1>Sorry these votes are being cast for and by children only.</h1>
-        <p><span class="voter"></span>,why dont you vote in the election. Here are a few links to help you make good choices that your kids would be proud of.</p>
-
-        <ul>
-          <li><a href="http://blacklivesmatter.com/about/">Your voting choices affect everyone!</a></li>
-          <li><a href="https://www.plannedparenthood.org/">So try hard to not be a dick</a></li>
-        </ul>
-
     </div>
 
-    <div id="thankYou">
-      <h1>Thanks for voting!</h1>
-      <p>Dear <span class="voter"></span>,</p>
-      <p>Thank you for your submission.
+
+    <div id="lisa">
+      <h1>Lisa</h1>
+      <p>Lisa is the best Simpson. It is always a good idea to name a pangolin "Lisa", whenever possible.
       </p>
-      <p>We have submitted the name <span class="mascot"></span>, as your submission. One of the best yet. Keep a look out for the final votes.
+      <p>You are very good at naming pangolins!</p>
+    </div>
+
+    <div id="horvath">
+      <h1>Horvath</h1>
+      <p>Horvath is a very strong name, from the original greek, meaning "Bringer of pine cones."
       </p>
-      <p>Sincerely,</p>
-      <p>Pandington Pandasley</p>
+      <p>Solid choice, yo.</p>
+    </div>
+
+    <div id="pandington">
+      <h1>Pandington</h1>
+      <p>Pandington is the best choice for a name, for anyone, period. that is because it is MY name. I am the all powerful being who lives in your computer. You should be sure to name your first born offspring after me as well.
+      </p>
+      <p>you win the internet.</p>
+    </div>
 
      </div>
     </div>

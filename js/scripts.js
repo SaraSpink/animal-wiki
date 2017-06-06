@@ -1,27 +1,20 @@
 $(document).ready(function() {
-  var ageInput = parseInt(prompt("How old are you?"));
 
-  if (ageInput > 17) {
-    $("#over-age").show();
-  } else {
-    $("#blanks").show();
-  }
+  $("button#name1").click(function() {
+    $("#horvath").show();
+    $("#lisa").hide();
+    $("#pandington").hide();
+  });
+  $("button#name2").click(function() {
+    $("#lisa").show();
+    $("#horvath").hide();
+    $("#pandington").hide();
+  });
+  $("button#name3").click(function() {
+    $("#pandington").show();
+    $("#horvath").hide();
+    $("#lisa").hide();
 
-  $("#blanks form").submit(function(event) {
-    var voterInput = $("input#voter").val();
-    var mascotInput= $("input#mascot").val();
+  });
 
-
-
-    $(".voter").text(voterInput);
-    $(".age").text(ageInput);
-    $(".mascot").text(mascotInput);
-
-    $("#thankYou").show();
-
-
-    // $("#thankYou").show();
-    // $("#over-age").show();
-    event.preventDefault();
-    });
 });

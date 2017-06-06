@@ -1,12 +1,12 @@
-/*.btn {
-  display: block;
-}*/
-#thankYou {
+.btn {
+  display: inline-table;
+}
+#lisa {
   display: none;
 }
-#over-age {
+#horvath {
   display: none;
 }
-#blanks {
+#pandington {
   display: none;
 }
