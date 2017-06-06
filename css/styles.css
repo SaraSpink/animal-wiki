@@ -1,6 +1,19 @@
-.btn {
-  display: inline-table;
+.container {
+  padding: 100px;
+  margin: 100px;
+  /*float: left;*/
 }
+
+.widerIMG {
+  zoom: 2.34;
+  float: left;
+  object-fit: fill;
+  position: relative;
+  width: 100%;
+}
+
+
+
 #lisa {
   display: none;
 }
